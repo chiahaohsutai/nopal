@@ -10,4 +10,6 @@
 	<title>NOPAL</title>
 	<meta name="description" content="A very sophisticated temperature conversion tool." />
 </svelte:head>
-{@render children()}
+<div class="h-full w-full p-8">
+	{@render children()}
+</div>
